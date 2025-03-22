@@ -25,19 +25,15 @@ Ensure you have the following installed:
 ### Steps
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-repo/health-insurance-predictor.git
+   git clone    git clone https://github.com/your-repo/health-insurance-predictor.git
+
    cd health-insurance-predictor
    ```
-2. Create a virtual environment and activate it:
-   ```sh
-   python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-   ```
-3. Install dependencies:
+2. Install dependencies:
    ```sh
    pip install -r requirements.txt
    ```
-4. Run the application:
+3. Run the application:
    ```sh
    streamlit run app.py
    ```
