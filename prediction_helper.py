@@ -98,7 +98,7 @@ def handle_scaling(age, df):
     if age <= 25:
         scaler_object = scaler_young
     else:
-        scaler_object = scaler_young
+        scaler_object = scaler_old
 
     cols_to_scale = scaler_object['columns_to_scale']
     scaler = scaler_object['scaler']
